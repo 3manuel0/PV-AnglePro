@@ -3,6 +3,7 @@
     "name": "PV-AnglePro",
     "slug": "PV-AnglePro",
     "version": "1.0.0",
+    "sdkVersion": "25.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -23,11 +24,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#FFFFFF",
+        "softwareKeyboardLayoutMode": "pan"
+      },
+      "package": "a.b"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dbff2b50-2b11-4753-870b-e7d6c5afc93f"
+      }
     }
   }
 }
